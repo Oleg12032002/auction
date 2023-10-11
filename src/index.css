@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.main-box {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
+  font-weight: 400;
+
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+
+.main-title {
+  font-weight: 700;
+  font-size: 39px;
+
+  padding-bottom: 5px;
+
+  color: #FFD913;
+  padding-left: 5px;
+}
+
+.main-subtitle {
+  padding-left: 5px;
+  color: #004596;
+}
+
+
+
+
+
+
+
+
+/* LotItem */
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+
+  margin: 300px 0px;
+  
+}
+
+.description-auction-lot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+
+  max-width: 600px;
+
+  margin: 10px;
+}
+
+.title-cart {
+  font-size: 24px;
+  font-weight: 700;
+
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.description {
+  font-size: 14px;
+  padding: 20px;
+
+  text-align: start;
+
+}
+
+
+.footer {
+  width: 100%;
+  background-color: #004596;
+  padding: 10px 0px;
+  color: #fff;
+}
+
+.curent-max-price {
+  color: red;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.auction-form {
+  text-align: start;
+  padding: 20px;
+}
+
+.start-price, .min-step-price {
+  font-weight: 500;
+}
